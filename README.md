@@ -1,9 +1,9 @@
 # This is a page to introduce myself to you.
 
-![personal-website](https://zxradrian.github.io/)
 
+[personal-website](https://zxradrian.github.io/ "Zhang Xiangran")
 
-Education
+Educationgit 
 ======
 * M.S. in Big Data project of Electronic Information major, Zhejiang University, 2026
 * B.S. in Computer Science, Beijing Foreign Studies University, 2018
@@ -52,12 +52,6 @@ Skills
   * PS
   * PR
  
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Awards
 ======
 * 全国大学生数学能力挑战赛一等奖

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zhang Xiangra's World"
+title: "Zhang Xiangran's World"
 author_profile: true
 redirect_from: 
   - /about/
