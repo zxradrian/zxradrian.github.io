@@ -1,51 +1,94 @@
-# Academic Pages
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+{% include base_path %}
 
-Academic Pages is a Github Pages template for academic websites.
+Education
+======
+* M.S. in Big Data project of Electronic Information major, Zhejiang University, 2026
+* B.S. in Computer Science, Beijing Foreign Studies University, 2018
 
-# Getting Started
+  
+Work experience
+======
+* 2024.7 - : 字节跳动TikTok
+  * Tiktok-data-video recommendation-消息推荐 算法实习生
+  * 频次模型迭代:
+    * 依据原频次模型uplift进行迭代，模型上将原有的T-Learner结构改进为DESCN和EFIN的算法结合体，数据上增加了关闭特征，过去的曝光，点击，关闭和宽点击序列特征，标签上拓展了多任务的标签宽点击标签，并修改上线。
+  * 时机模型迭代:
+    * 迭代原有的时机模型从多任务MLP为MMoE的版本。
+  * 流控架构调整:
+    * 增加关闭状态用户少发的逻辑，增加分层流控X+UV不涨的评判标准。
+  * 端智能弹窗引导优化：
+    * 控制不同场景下引导push打开弹窗的频次时间与退场时间，从原有的避让策略迁移到规则策略再最后迁移到端智能模型。
+* 2024.3-2024.7: 哈啰出行
+  * 人工智能部-基础算法-智能搜推组算法实习生
+  * 流量货币化广告模型迭代:
+    * 依据原效果广告模型进行迭代，将序列信息通过带有特殊position encoding和mask机制的transformer编码并使用target attention融合并改进了模型。具体负责了从调研，取数，训练到上线的全流程任务。经过线上ABTest证实CTR效果提升了3.7%，CVR效果提升了2.7%。
+  * 流量货币化广告模型迭代:
+    * 制作供给后端部门和算法部门每日自动更新的报表，根据曝光全链路之中抽取得到有效曝光，点击和转化信息制作对于ECPM排名偏差指标，CTR，CVR偏差，消耗和报价的相关报表，其中考虑了曝光链路里冷启流量等污染指标以及UV浏览等情况，依据此发现了空耗流量和预算超跑等相关问题。
+  * 租车推荐业务协同过滤算法:
+    * 用户点击某辆车后，下拉菜单所推荐的其他相近车型的推荐排序。具体方法是使用地理位置召回，Swing召回以及强制重排等逻辑，对原本简单的车辆召回逻辑做了改进。根据ABTest，CTR提升了0.5%左右。
+* 2020.7 - 2021.9: 中国科学院
+  * 信息工程研究所-科研助理
+  * 文献调研:
+    * ：翻译，综述文献等，主要方面是虚假信息检测及其他自然语言处理应用领域的文献翻译及文献综述撰写等。
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-See more info at https://academicpages.github.io/
+**中国科学院**2021.07-2022.11
 
-## Running Locally
+:::
+****
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+:::
+**科研助理**
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
+::: end
+
+- **文献调研**
     
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+- **语言**：英语专业八级良好，英语专业四级，英语六级，英语四级通过，西班牙语（西班牙语阅读98分）
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+- **计算机**： Python，C++，TensorFlow, Hive, Spark, PyTorch，Visio，PS，PR，AE，LaTex
 
-# Maintenance
+- **奖项**：
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Skills
+======
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+  * Python
+  * C++
+  * TensorFlow
+  * LaTex
+* Language
+  * TEM8
+  * TEM4
+  * CET6
+  * CET4
+  * Basic Spanish
+* MultiMedia
+  * PS
+  * PR
+ 
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+Awards
+======
+* 全国大学生数学能力挑战赛一等奖
+* 美国大学生数学建模竞赛M 奖
+* 北京市优秀毕业生
+* 北京市优秀毕业论文
+* 北京外国语大学优秀共产党员
+* 北外一等奖学金（10%）
+* 国家励志奖学金
+* 优秀共青团员
