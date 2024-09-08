@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in Big Data project of Electronic Information major, Zhejiang University, 2026
+* M.S. in Big Data project of Electronic Information major, Zhejiang University, 2026 (expected)
 * B.S. in Computer Science, Beijing Foreign Studies University, 2018
 
   
