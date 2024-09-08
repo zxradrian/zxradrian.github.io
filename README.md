@@ -1,13 +1,7 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+# This is a page to introduce myself to you.
 
-{% include base_path %}
+![personal-website](https://zxradrian.github.io/)
+
 
 Education
 ======
@@ -40,24 +34,6 @@ Work experience
   * 文献调研:
     * ：翻译，综述文献等，主要方面是虚假信息检测及其他自然语言处理应用领域的文献翻译及文献综述撰写等。
 
-
-**中国科学院**2021.07-2022.11
-
-:::
-****
-
-:::
-**科研助理**
-
-::: end
-
-- **文献调研**
-    
-- **语言**：英语专业八级良好，英语专业四级，英语六级，英语四级通过，西班牙语（西班牙语阅读98分）
-
-- **计算机**： Python，C++，TensorFlow, Hive, Spark, PyTorch，Visio，PS，PR，AE，LaTex
-
-- **奖项**：
 
 Skills
 ======
